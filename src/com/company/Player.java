@@ -10,9 +10,9 @@ public class Player {
             int num = new Scanner(System.in).nextInt()-1;
             if (num < 3 && num > -1){
                 switch (num){
-                    case 0 -> System.out.println("Rock");
-                    case 1 -> System.out.println("Paper");
-                    case 2 -> System.out.println("Scissors");
+                    case 0 -> System.out.println(rock_Paper_Scissors.ROCK);
+                    case 1 -> System.out.println(rock_Paper_Scissors.PAPER);
+                    case 2 -> System.out.println(rock_Paper_Scissors.SCISSORS);
                 }
             }else {
                 System.out.println("Wrong number");
