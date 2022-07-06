@@ -19,7 +19,7 @@ public class ScoringSystem {
     }
     public float percentage(){
         if(lose > 0){
-            return (float) (win * 100 / lose);
+            return (float) (100 / lose);
         }else {
             return 100;
         }
